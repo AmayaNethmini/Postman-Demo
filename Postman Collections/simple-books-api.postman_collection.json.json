@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "Get Request",
 			"id": "8002c996-06b8-4565-bc3b-8fb345b3f0e3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -15,6 +15,41 @@
 				"method": "GET",
 				"header": [],
 				"url": "https://simple-books-api.click/status"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Book Set",
+			"id": "f5c5a935-200a-4efd-b89d-f48666094090",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.click/status?type =function&limit=3",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"click"
+					],
+					"path": [
+						"status"
+					],
+					"query": [
+						{
+							"key": "type ",
+							"value": "function",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
