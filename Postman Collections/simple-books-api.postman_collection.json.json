@@ -27,26 +27,33 @@
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "https://simple-books-api.click/status?type =function&limit=3",
+					"raw": "https://simple-books-api.click/books?type =function&limit=3",
 					"protocol": "https",
 					"host": [
 						"simple-books-api",
 						"click"
 					],
 					"path": [
-						"status"
+						"books"
 					],
 					"query": [
 						{
 							"key": "type ",
-							"value": "function",
-							"type": "text"
+							"value": "function"
 						},
 						{
 							"key": "limit",
-							"value": "3",
-							"type": "text"
+							"value": "3"
 						}
 					]
 				}
